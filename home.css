@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Copilot_20250603_120328.png);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    background-color: azure;
+    width: 300px;
+    height: 450px;
+   box-shadow: 0 10px 20px black;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   overflow: hidden;
+   font-family:sans-serif ;
+}
+.shape{
+    background-color: #002244;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px black;
+    transform: rotate(25deg);
+}
+.image{
+    height: 100px;
+    width: 100px;
+    background-image: url(logo.jpg);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    transform: rotate(-25deg);
+    border-radius: 50%;
+    box-shadow: 0 2px 15px black;
+}
+.titulo{
+font-size: 15px;
+padding-bottom: 5px;
+color: #0093af;
+}
+h3{
+    margin-bottom: 10px;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    font-size: 15px;
+}
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    margin-left: 10px;
+    font-size: 20px;
+    transition: .3s;
+    color: rgb(40, 163, 194);
+}
+.icons i:hover{
+    color: #0093af;
+    transform: scale(1.2);
+}
